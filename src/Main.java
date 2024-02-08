@@ -10,6 +10,7 @@ public class Main {
         String sinopse = "Filme de aventura relacionado a aviação";
         System.out.println(sinopse);
         System.out.println("A nota do filme é: " + notaDoFilme);
+        System.out.println("Esse filme é grátis? Resposta: " + incluidoNoPlano);
 
         System.out.println();
 
