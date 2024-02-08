@@ -9,6 +9,7 @@ public class Main {
         double notaDoFilme = 9.2;
         String sinopse = "Filme de aventura relacionado a aviação";
         System.out.println(sinopse);
+        System.out.println("A nota do filme é:" + notaDoFilme);
 
         System.out.println();
 
