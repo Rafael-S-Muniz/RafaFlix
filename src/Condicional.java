@@ -1,7 +1,7 @@
 public class Condicional {
     public static void main(String[] args) {
         int anoDeLancamento = 2022;
-        boolean incluidoNoPlano = false;
+        boolean incluidoNoPlanoBase = false;
         double media = (7.2 + 6.9 + 9 + 8.2) / 4;
         String tipoPlano = "Deluxe";
 
@@ -10,7 +10,7 @@ public class Condicional {
         } else {
             System.out.println("Esse é um filme retrô mas vale a pena assistir ;)");
         }
-        if (incluidoNoPlano || tipoPlano.equals("Deluxe")) {
+        if (incluidoNoPlanoBase || tipoPlano.equals("Deluxe")) {
             System.out.println("Você pode assistir a esse filme!");
         } else {
             System.out.println("Você precisa assinar nosso plano Deluxe para assistir a esse filme");
