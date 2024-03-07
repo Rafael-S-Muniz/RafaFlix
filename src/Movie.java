@@ -1,10 +1,10 @@
 public class Movie {
-    String movieName;
-    String movieGenre;
+    String name;
+    String genre;
     int releaseYear;
     boolean includedInPlan;
-    double movieRate;
-    double totalRates;
-    double movieMinutes;
+    double averageRate;
+    double ratingCounts;
+    double durationInMinutes;
 
 }
